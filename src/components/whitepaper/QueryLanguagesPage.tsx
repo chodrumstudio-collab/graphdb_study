@@ -65,7 +65,7 @@ RETURN friend.name`}
 
           <div className="bg-blue-50 p-6 rounded-lg">
             <h4 className="text-[#1A237E] text-lg font-semibold mb-4">실제 사용 예시</h4>
-            <div className="bg-gray-900 text-green-400 p-4 rounded font-mono text-sm">
+            <div className="bg-gray-900 text-white p-4 rounded font-mono text-sm">
               <div>// 친구의 친구 찾기</div>
               <div>MATCH (p:Person)-[:FRIEND]-(friend)-[:FRIEND]-(fof)</div>
               <div>WHERE p.name = "Alice"</div>
